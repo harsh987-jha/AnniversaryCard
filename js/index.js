@@ -25,5 +25,10 @@
       timer = null;
     }, 1000);
   });
+  document.body.addEventListener('click', function () {
+    const music = document.getElementById('background-music');
+    music.play(); // Play the music
+  });
 
 }());
+
